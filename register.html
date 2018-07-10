@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+</head>
+<body background="background/fond.jpg"><center>
+	<div id="agrupar">
+	<header>
+	<h1 id="titulo1"><center><a href="home.html" style="color: #fff">GALERY L.A. COMPANY</a> </center>	</h1>
+	<br><br><br><br><br><br>
+	<h1 id="titulo1">< REGISTRO</h1>
+	<form action="checkregister.jsp" method="POST">
+		<label id="sub_title" for="nombre">Nombre: <span><em>(requerido)</em></span></label>
+		<br>
+		<input type="text" name="nombre" required/>
+		<br>
+		<label id="sub_title" for="apellidos">Apellidos: <span><em>(requerido)</em></span></label>
+		<br>
+		<input type="text" name="apellidos" required/>
+		<br>
+		<label id="sub_title" for="email">Email: <span><em>(requerido)</em></span></label>
+		<br>
+		<input type="email" name="email" required/>
+		<br>
+		<label id="sub_title" for="password">Contraseña: <span><em>(requerido)</em></span></label>
+		<br>
+		<input type="password" name="password" required/>
+		<br><br>
+		<input type="submit" name="submit" value="Registrarse"/>
+	</form>
+	<br>
+	<input onclick="window.location.href='login.html'" type="button" name="submit" value="Si estas registrado Inicia Sesion"/>
+</center>
+</body>
+</html>

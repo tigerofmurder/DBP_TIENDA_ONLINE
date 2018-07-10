@@ -1,0 +1,10 @@
+#titulo1{
+	font: bold 36px verdana, sans-serif;
+	color: #FFF;
+	text-shadow: #000000 -3px -3px 3px;
+}
+#sub_title{
+	font: bold 14px verdana, sans-serif;
+	color: #FFF;
+	text-shadow: #000 5px -5px 2px;
+}

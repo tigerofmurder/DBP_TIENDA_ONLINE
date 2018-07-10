@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CREADOR</title>
+</head>
+<a href="logout.jsp" style="float: right">CERRAR SESION</a>
+<body>
+	<header>
+		<h2><em>CREADOR DE ITEMS</em></h2>
+	</header>
+	<section>
+		<form action="registro.jsp" method="POST">
+			<label for="nombre">NOMBRE: <span><em>(requerido)</em></span> </label>
+			<br>
+			<input type="text" name="nombre" id="nombre" required/>
+			<br>
+			<label for="imagen">DIRECCION DE IMAGEN: <span><em>(requerido)</em></span> </label>
+			<br>
+			<input type="text" name="imagen" id="imagen" required/>
+			<br>
+			<label for="categoria">CATEGORIA: <span><em>(requerido)</em></span> </label>
+			<br>
+			<input type="text" name="categoria" id="categoria" required/>
+			<br>
+			<label for="precio">PRECIO<span><em>(requerido)</em></span> </label>
+			<br>
+			<input type="number" name="precio" id="precio" required/>
+			<br>
+			<label for="stock">STOCK<span><em>(requerido)</em></span> </label>
+			<br>
+			<input type="number" name="stock" id="stock" required/>
+			<br>
+			<label for="descripcion">DESCRIPCION<span><em>(requerido)</em></span> </label>
+			<br>
+			<input type="text" name="descripcion" id="descripcion" required/>
+			<br>
+			<label for="color">COLOR<span><em>(requerido)</em></span> </label>
+			<br>
+			<input type="text" name="color" id="color" required/>
+			<br><br>
+			<label for="marca">MARCA<span><em>(requerido)</em></span> </label>
+			<br>
+			<input type="text" name="marca" id="color" required/>
+			<br><br>
+			<input type="submit" name="submit" value="REGISTRAR">
+		</form>
+		<br>
+		<input onclick="window.location.href='home.html'" name="submit" type="button" value="HOME"/>
+</body>
+</html>
